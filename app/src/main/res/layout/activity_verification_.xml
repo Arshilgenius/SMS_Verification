@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4324"
+    android:orientation="vertical"
+    tools:context="com.example.apple.sms_verification.Verification_Activity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:text="VERIFY OTP"
+        android:id="@+id/verify"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
